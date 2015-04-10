@@ -21,6 +21,8 @@ Libbcm2835 is used for GPIO access. See http://www.airspayce.com/mikem/bcm2835/ 
 SV1 can be used to connect a manual switch.
 
 # Setup
+Install the Library see http://www.airspayce.com/mikem/bcm2835/ for details.
+
 If you are using a Raspberry Pi 2 you need to enable device tree support!
 
 ```bash
@@ -30,7 +32,7 @@ sudo raspi-config
 ->Advanced Options -> enable Device Tree
 sudo shutdown -r now
 ```
-
+Then type
 ```bash
 ./configure
 make
