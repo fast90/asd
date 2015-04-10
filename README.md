@@ -9,7 +9,7 @@ When MPD stops playing OUT is switched back to INPUT 1.
 Libbcm2835 is used for GPIO access. See http://www.airspayce.com/mikem/bcm2835/ for details.
 
 # Schematic
-![Schematic](https://github.com/fast90/audioswitch/blob/master/hardware/schematic_small.png)
+![Schematic](https://github.com/fast90/asd/blob/master/schematics/schematic_small.png)
 
 # Wiring
 | Raspberry Pi Pin No. | Audioswitch Pin | Function |
