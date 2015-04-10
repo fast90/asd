@@ -1,0 +1,30 @@
+.TH "Audio Switch Daemon" 1
+.SH NAME
+ASD \- A daemon for switching audiosources
+.SH SYNOPSIS
+.B mpd
+.RI [ options ]
+.SH DESCRIPTION
+ASD is a daemon for toggling a Raspberry Pi GPIO pin
+based on the status of MPD.
+.SH OPTIONS
+.TP
+.BI \-\-help
+Output a brief help message.
+.TP
+.BI \-\-no\-daemon
+Don't detach from console.
+.TP
+.BI \-\-version
+Print version information.
+.TP
+.BI \-\-pin
+Change GPIO pin (default is GPIO 17).
+.TP
+.BI \-\-socket
+Path to mpd socket file.
+.SH BUGS
+If you find a bug, please report it to the author.
+.SH AUTHORS
+Fabian Stahl <fabian.m.stahl@posteo.de>
+
